@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: live probe of https://api.vertical.bar/ (unauthenticated surface)
+format: custom-json-envelope
+envelope:
+  wrapper: '{"success": <bool>, "status_code": <int>, "data": <object|null>, "error": {...}}'
+  error_path: error
+  error_fields: [code, message, data]
+problems:
+- status: 401
+  code: 401
+  title: Invalid authorization header
+  detail: Returned to any request lacking a valid bearer Authorization header.
+  source: 'GET https://api.vertical.bar/'
+notes: >-
+  Only the unauthenticated 401 is observable without credentials; the full error
+  catalog is not published. The envelope is a custom JSON wrapper, not RFC 9457
+  application/problem+json.

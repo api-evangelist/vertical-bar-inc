@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+source: live probe of https://api.vertical.bar/ (unauthenticated surface)
+authentication:
+  style: bearer
+  header: Authorization
+  ref: authentication/vertical-bar-inc-authentication.yml
+error_envelope:
+  format: custom-json-envelope
+  shape: '{"success": <bool>, "status_code": <int>, "data": <object|null>, "error": {"code": <int>, "message": <string>, "data": <object|null>}}'
+  observed:
+  - status: 401
+    message: Invalid authorization header
+  ref: errors/vertical-bar-inc-problem-types.yml
+runtime:
+  server: uvicorn (ASGI / FastAPI-style)
+  content_type: application/json
+idempotency: unknown
+pagination: unknown
+versioning: unknown
+notes: >-
+  Conventions captured from the live, unauthenticated surface of api.vertical.bar
+  only. Idempotency, pagination and versioning are not observable without
+  credentials and are recorded as unknown rather than asserted. No Idempotency
+  pointer is emitted because no idempotency contract was observed.

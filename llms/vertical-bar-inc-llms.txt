@@ -1,0 +1,23 @@
+# Vertical Bar Inc.
+
+> Vertical Bar Inc. builds CrossCheck, a DevOps and operations-visibility platform for NetSuite environments — configuration tracking, change management, deployment safety, record-and-replay regression testing, AI-assisted error analysis, and process mining — plus managed services and the FieldTrail browser extension.
+
+## Product
+- [CrossCheck platform](https://vertical.bar): NetSuite DevOps, visibility and change-management platform
+- [Try CrossCheck Beta (free)](https://crosscheck.vertical.bar): sign in / free beta of the CrossCheck app
+- [FieldTrail browser extension](https://chromewebstore.google.com/detail/fieldtrail-netsuite-field/ldhegbbcbdipnkacdnfkfkchldbknclg): NetSuite field-customization Chrome extension
+
+## Company
+- [Technologies / Platform](https://vertical.bar/technologies)
+- [Integration](https://vertical.bar/integration)
+- [Managed Service](https://vertical.bar/managed-service)
+- [Case studies](https://vertical.bar/case-study)
+- [Pricing](https://vertical.bar/pricing)
+- [Blog](https://vertical.bar/blog)
+
+## API
+- The production API host `https://api.vertical.bar` is authenticated (bearer Authorization header, JSON envelope). No public OpenAPI or developer documentation is published as of 2026-07-21.
+
+## Legal
+- [Terms of Service](https://vertical.bar/terms-of-service)
+- [Data Processing Agreement](https://vertical.bar/data-processing-agreement)

@@ -1,8 +1,29 @@
 aid: vertical-bar-inc
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vertical-bar-inc.png
 name: Vertical Bar Inc.
-description: Vertical Bar Inc. is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Vertical Bar Inc. builds CrossCheck, a DevOps and operations-visibility platform
+  for NetSuite environments. CrossCheck gives NetSuite teams configuration tracking,
+  change management and deployment safety: environment snapshots, comparisons and
+  restore, automated record-and-replay regression testing that catches issues before
+  production, AI-assisted error analysis with fix suggestions, and process mining to
+  surface workflow delays and inefficiencies. Vertical Bar also offers managed
+  services and industry-specific solutions for medical device, food and beverage,
+  chemical, and aerospace and defense manufacturers, plus the FieldTrail browser
+  extension for NetSuite field customization. Surfaced as a 500 Global portfolio
+  company and enriched from its public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/vertical-bar-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,15 +33,60 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- NetSuite
+- DevOps
+- ERP
+- Change Management
+- Process Mining
+- Configuration Management
+- Manufacturing
+apis:
+- name: CrossCheck API
+  description: >-
+    Authenticated JSON API backing the CrossCheck NetSuite DevOps platform
+    (server: uvicorn / FastAPI-style). Requires a bearer Authorization header; no
+    public OpenAPI specification or developer documentation is published as of
+    2026-07-21.
+  humanURL: https://crosscheck.vertical.bar
+  baseURL: https://api.vertical.bar
+  properties:
+  - type: Authentication
+    url: authentication/vertical-bar-inc-authentication.yml
+  - type: ErrorCatalog
+    url: errors/vertical-bar-inc-problem-types.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vertical-bar-inc-domain-security.yml
+- type: Authentication
+  url: authentication/vertical-bar-inc-authentication.yml
+- type: Conventions
+  url: conventions/vertical-bar-inc-conventions.yml
+- type: ErrorCatalog
+  url: errors/vertical-bar-inc-problem-types.yml
+- type: LLMsTxt
+  url: llms/vertical-bar-inc-llms.txt
 - type: Website
   url: https://vertical.bar
+- type: Pricing
+  url: https://vertical.bar/pricing
+- type: Blog
+  url: https://vertical.bar/blog
+- type: SignUp
+  url: https://crosscheck.vertical.bar
+- type: TermsOfService
+  url: https://vertical.bar/terms-of-service
+- type: DataProcessingAgreement
+  url: https://vertical.bar/data-processing-agreement
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

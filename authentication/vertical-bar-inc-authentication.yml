@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+source: live probe of https://api.vertical.bar/ (unauthenticated 401 response)
+summary:
+  types: [http]
+  http_schemes: [bearer]
+  api_key_in: []
+  oauth2_flows: []
+  notes: >-
+    No public OpenAPI or authentication documentation is published. The production
+    API host api.vertical.bar returns HTTP 401 with
+    {"error":{"code":401,"message":"Invalid authorization header"}} to
+    unauthenticated requests, indicating a bearer token supplied via the standard
+    Authorization request header (server: uvicorn / FastAPI-style). A gated
+    /.well-known/openid-configuration endpoint (307 to /login on the CrossCheck app
+    host, 401 on the API host) suggests an OIDC-based login for the app.
+schemes:
+- name: bearerAuth
+  type: http
+  scheme: bearer
+  in: header
+  parameter: Authorization
+  evidence: 'GET https://api.vertical.bar/ -> 401 {"message":"Invalid authorization header"}'
+  sources: [live-probe]
