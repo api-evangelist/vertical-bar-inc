@@ -1,0 +1,27 @@
+# Front Door AI Index — vertical-bar-inc — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: vertical-bar-inc
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: vertical.bar
+  final_host: vertical.bar
+  ownership: own
+  owner: vertical-bar-inc
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 6
+  host_score: 6
+  density: 12.15
+  words: 494
+  tiers:
+    agentic: 0
+    core: 6
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 4
+    artificial intelligence: 2
+    intelligence: 2
