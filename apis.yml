@@ -24,7 +24,7 @@ accessModel:
   generated: '2026-09-03'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vertical-bar-inc.png
-name: Vertical Bar Inc.
+name: Vertical Bar
 description: >-
   Vertical Bar Inc. builds CrossCheck, a DevOps and operations-visibility platform
   for NetSuite environments. CrossCheck gives NetSuite teams configuration tracking,
@@ -102,3 +102,4 @@ x-enrichment:
   status: enriched
   artifacts_added: 5
   pass: local-v1
+x-legal-name: Vertical Bar Inc.
