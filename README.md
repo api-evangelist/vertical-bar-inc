@@ -1,4 +1,4 @@
-# Vertical Bar Inc.
+# Vertical Bar
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Vertical Bar Inc. is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Vertical Bar Inc. builds CrossCheck, a DevOps and operations-visibility platform for NetSuite environments. CrossCheck gives NetSuite teams configuration tracking, change management and deployment safety: environment snapshots, comparisons and restore, automated record-and-replay regression testing that catches issues before production, AI-assisted error analysis with fix suggestions, and process mining to surface workflow delays and inefficiencies. Vertical Bar also offers managed services and industry-specific solutions for medical device, food and beverage, chemical, and aerospace and defense manufacturers, plus the FieldTrail browser extension for NetSuite field customization. Surfaced as a 500 Global portfolio company and enriched from its public web surface.
 
-Backed by: 500-global — https://vertical.bar
+**Areas:** Company · NetSuite · DevOps · ERP · Change Management · Process Mining · Configuration Management · Manufacturing
+
+## Vertical Bar on APIs.io
+
+Everything profiled for Vertical Bar is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/vertical-bar-inc/](https://apis.io/providers/vertical-bar-inc/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [CrossCheck API](https://apis.io/apis/vertical-bar-inc/crosscheck-api/) — Authenticated JSON API backing the CrossCheck NetSuite DevOps platform (server: uvicorn / FastAPI-style). Requires a bearer Authorization header; no public…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Vertical Bar Inc Authentication](https://apis.io/security/vertical-bar-inc/vertical-bar-inc-authentication/)
+- [Vertical Bar Inc Domain Security](https://apis.io/security/vertical-bar-inc/vertical-bar-inc-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://vertical.bar)
+- [Pricing](https://vertical.bar/pricing)
+- [Sign up](https://crosscheck.vertical.bar)
+- [Blog](https://vertical.bar/blog)
+- [Terms of service](https://vertical.bar/terms-of-service)
+
+## API Evangelist rating
+
+**Kin Score 14.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 21.1 |
+
+**Agent readiness 5.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/vertical-bar-inc/](https://apis.io/providers/vertical-bar-inc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Vertical Bar: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/vertical-bar-inc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
